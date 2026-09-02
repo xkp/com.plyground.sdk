@@ -91,8 +91,8 @@ public class PlygroundModuleProperty
 
 public class PlygroundItemGroup
 {
-	public string name { get; internal set; }
-	public string icon { get; internal set; }
+	public string name { get; set; }
+	public string icon { get; set; }
 	public List<PlygroundItem> items { get; set; }
 }
 
