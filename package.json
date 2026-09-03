@@ -1,6 +1,6 @@
 {
   "name": "com.plyground.sdk",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "displayName": "Plyground SDK",
   "description": "Public controller contracts and editor helpers for Plyground Unity integrations.",
   "unity": "2020.3",

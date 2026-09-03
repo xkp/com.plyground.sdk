@@ -153,6 +153,8 @@ public class GameItem
 	public string RuntimeAsset { get; set; }
 	public string SourceAssetPath { get; set; }
 	public Dictionary<string, object> Values { get; set; }
+	// Canonical build.json record joined by BuildId. Keep this separate from authored Values.
+	public JObject BuildValues { get; set; }
 	public List<GameComponent> Components { get; set; } = new List<GameComponent>();
 	public List<GameFeature> GameFeatures { get; set; } = new List<GameFeature>();
 	public Vector3 Position { get; set; }
